@@ -4,5 +4,11 @@
     box-sizing: border-box;
 }
 html{
-    background: #fff;
+    color: #555;
+    background: #f0f0f0;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    text-rendering: optimizeLegibility;
+
 }
