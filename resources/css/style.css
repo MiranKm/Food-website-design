@@ -96,4 +96,41 @@ h1 {
     color: #fff;
 }
 
+
+.logo {
+    height: 4rem;
+    float: left;
+    margin-top: 20px;
+    transition: ease-in-out 0.2s;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav>li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 50px;
+
+}
+
+.main-nav>li>a:link, .main-nav li  a:visited {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    padding: 4px 0;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,.main-nav li  a:active {
+  border-bottom: 2px solid #e67e22; 
+}
+
+.logo:hover{
+    transform:scale(1.1);
+}
+
 /* end  section #1 */
