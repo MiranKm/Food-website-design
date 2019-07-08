@@ -104,6 +104,10 @@ h1 {
     transition: ease-in-out 0.2s;
 }
 
+.logo:hover {
+    transform: scale(1.1);
+}
+
 .main-nav {
     float: right;
     list-style: none;
@@ -116,7 +120,8 @@ h1 {
 
 }
 
-.main-nav>li>a:link, .main-nav li  a:visited {
+.main-nav>li>a:link,
+.main-nav li a:visited {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -125,12 +130,15 @@ h1 {
     transition: border-bottom 0.2s;
 }
 
-.main-nav li a:hover,.main-nav li  a:active {
-  border-bottom: 2px solid #e67e22; 
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
 }
 
-.logo:hover{
-    transform:scale(1.1);
-}
 
 /* end  section #1 */
+
+/* start section #2 */
+
+
+/* end  section #2 */
