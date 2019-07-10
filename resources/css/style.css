@@ -40,6 +40,8 @@ h3 {
 }
 
 
+
+
 /* end re usable element styles*/
 
 
@@ -155,6 +157,10 @@ h1 {
 }
 
 
+.section-featuers .long-copy{
+    margin-bottom: 1rem;
+}
+
 /* end  section #1 */
 
 /* start feature section #2 */
@@ -202,6 +208,12 @@ h3 {
 /* end feature section #2 */
 /* start meals section #3 */
 
+
+.section-meals{
+    padding: 0;
+    margin-top: 1rem;
+
+}
 .meals-showcase{
     list-style: none;
     width: 100%;
@@ -214,10 +226,22 @@ h3 {
 .meal-photo{
     width: 100%;
     margin: 0;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
 }
+
 .meal-photo img{
+    opacity: 0.7;
     width: 100%;
     height: auto;
+    transform: scale(1.17);
+    transition: transform 0.3s,opacity 0.3s;
+}
+
+.meal-photo img:hover{
+    transform: scale(1.02);
+    opacity: 1;
+
 }
 
 /* end meals section #3 */
