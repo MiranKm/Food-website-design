@@ -168,7 +168,8 @@ h2 {
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
-    margin: 30px 0;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
 }
 
 h2::after {
